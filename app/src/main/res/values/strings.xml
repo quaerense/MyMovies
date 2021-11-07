@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Movies</string>
+    <string name="poster_of_movie">Poster of movie</string>
+    <string name="most_popular">Most popular</string>
+    <string name="top_rated">Top rated</string>
+    <string name="added_to_favourites">Added to favourites</string>
+    <string name="removed_from_favourites">Removed from favourites</string>
+    <string name="item_main">Main</string>
+    <string name="item_favourite">Favourite</string>
+    <string name="placeholder_text">Info</string>
+    <string name="label_title">Label:</string>
+    <string name="label_original_title">Original title:</string>
+    <string name="label_rating">Rating:</string>
+    <string name="label_release_date">Release date:</string>
+    <string name="label_description">Description:</string>
+    <string name="description_launch_trailer">Launch trailer</string>
+    <string name="description_add_to_favourite">Add to favourite</string>
+    <string name="description_poster_of_movie">Poster of movie</string>
+    <string name="error">An error occurred while downloading the movie, check your internet connection</string>
+</resources>

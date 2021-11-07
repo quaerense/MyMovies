@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мои фильмы</string>
+    <string name="poster_of_movie">Постер к фильму</string>
+    <string name="most_popular">Самые популярные</string>
+    <string name="top_rated">Наиболее рейтинговые</string>
+    <string name="added_to_favourites">Добавлено в избранное</string>
+    <string name="removed_from_favourites">Удалено из избранного</string>
+    <string name="item_main">Главная</string>
+    <string name="item_favourite">Избранное</string>
+    <string name="placeholder_text">Инфо</string>
+    <string name="label_title">Название:</string>
+    <string name="label_original_title">Оригинальное название:</string>
+    <string name="label_rating">Рейтинг:</string>
+    <string name="label_release_date">Дата релиза:</string>
+    <string name="label_description">Описание:</string>
+    <string name="description_launch_trailer">Запустить трейлер</string>
+    <string name="description_add_to_favourite">Добавить в избранное</string>
+    <string name="description_poster_of_movie">Постер к фильму</string>
+    <string name="error">При загрузке фильма возникла ошибка, проверьте ваше интернет-соединение</string>
+</resources>
