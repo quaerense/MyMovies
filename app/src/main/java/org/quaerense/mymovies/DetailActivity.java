@@ -1,8 +1,6 @@
 package org.quaerense.mymovies;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
@@ -114,7 +112,7 @@ public class DetailActivity extends AppCompatActivity {
             Picasso.get().load(movie.getBigPosterPath()).placeholder(R.drawable.placeholder).into(imageViewBigPoster);
             textViewTitle.setText(movie.getTitle());
             textViewOriginalTitle.setText(movie.getOriginalTitle());
-            textViewRating.setText(String.format(Locale.getDefault(), "%.1f", movie.getVoteAverage()));
+            textViewRating.setText(String.valueOf(movie.getVoteAverage()));
             textViewReleaseDate.setText(movie.getReleaseDate());
             textViewOverview.setText(movie.getOverview());
 
@@ -168,11 +166,5 @@ public class DetailActivity extends AppCompatActivity {
         } else {
             imageViewAddToFavourite.setImageResource(R.drawable.favourite_remove);
         }
-    }
-
-    private boolean isNetworkConnected() {
-        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-
-        return cm.getActiveNetworkInfo() != null && cm.getActiveNetworkInfo().isConnected();
     }
 }

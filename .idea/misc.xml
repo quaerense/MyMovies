@@ -4,11 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Alexey/AndroidStudioProjects/MyMovies/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20208333333333334" />
-        <entry key="..\:/Users/Alexey/AndroidStudioProjects/MyMovies/app/src/main/res/layout-land/activity_detail.xml" value="0.1437308868501529" />
+        <entry key="..\:/Users/Alexey/AndroidStudioProjects/MyMovies/app/src/main/res/layout-land/activity_detail.xml" value="0.1" />
         <entry key="..\:/Users/Alexey/AndroidStudioProjects/MyMovies/app/src/main/res/layout/activity_detail.xml" value="0.17407407407407408" />
         <entry key="..\:/Users/Alexey/AndroidStudioProjects/MyMovies/app/src/main/res/layout/activity_favourite.xml" value="0.25" />
-        <entry key="..\:/Users/Alexey/AndroidStudioProjects/MyMovies/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Alexey/AndroidStudioProjects/MyMovies/app/src/main/res/layout/movie_info.xml" value="0.25" />
+        <entry key="..\:/Users/Alexey/AndroidStudioProjects/MyMovies/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Alexey/AndroidStudioProjects/MyMovies/app/src/main/res/layout/movie_info.xml" value="0.1" />
         <entry key="..\:/Users/Alexey/AndroidStudioProjects/MyMovies/app/src/main/res/layout/movie_item.xml" value="0.20471014492753623" />
         <entry key="..\:/Users/Alexey/AndroidStudioProjects/MyMovies/app/src/main/res/layout/review_item.xml" value="0.18146718146718147" />
         <entry key="..\:/Users/Alexey/AndroidStudioProjects/MyMovies/app/src/main/res/layout/trailer_item.xml" value="0.1" />

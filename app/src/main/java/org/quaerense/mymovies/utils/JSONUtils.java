@@ -54,11 +54,11 @@ public class JSONUtils {
                 String overview = jsonMovie.getString(KEY_OVERVIEW);
                 String posterPath = BASE_POSTER_URL + SMALL_POSTER_SIZE + jsonMovie.getString(KEY_POSTER_PATH);
                 String bigPosterPath = BASE_POSTER_URL + BIG_POSTER_SIZE + jsonMovie.getString(KEY_POSTER_PATH);
-                String backdropPAth = jsonMovie.getString(KEY_BACKDROP_PATH);
+                String backdropPath = jsonMovie.getString(KEY_BACKDROP_PATH);
                 double voteAverage = jsonMovie.getDouble(KEY_VOTE_AVERAGE);
                 String releaseDate = jsonMovie.getString(KEY_RELEASE_DATE);
 
-                Movie movie = new Movie(id, voteCount, title, originalTitle, overview, posterPath, bigPosterPath, backdropPAth, voteAverage, releaseDate);
+                Movie movie = new Movie(id, voteCount, title, originalTitle, overview, posterPath, bigPosterPath, backdropPath, voteAverage, releaseDate);
                 movies.add(movie);
             }
         } catch (JSONException e) {
@@ -83,11 +83,11 @@ public class JSONUtils {
             String overview = jsonObject.getString(KEY_OVERVIEW);
             String posterPath = BASE_POSTER_URL + SMALL_POSTER_SIZE + jsonObject.getString(KEY_POSTER_PATH);
             String bigPosterPath = BASE_POSTER_URL + BIG_POSTER_SIZE + jsonObject.getString(KEY_POSTER_PATH);
-            String backdropPAth = jsonObject.getString(KEY_BACKDROP_PATH);
+            String backdropPath = jsonObject.getString(KEY_BACKDROP_PATH);
             double voteAverage = jsonObject.getDouble(KEY_VOTE_AVERAGE);
             String releaseDate = jsonObject.getString(KEY_RELEASE_DATE);
 
-            movie = new Movie(id, voteCount, title, originalTitle, overview, posterPath, bigPosterPath, backdropPAth, voteAverage, releaseDate);
+            movie = new Movie(id, voteCount, title, originalTitle, overview, posterPath, bigPosterPath, backdropPath, voteAverage, releaseDate);
         } catch (JSONException e) {
             e.printStackTrace();
         }

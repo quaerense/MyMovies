@@ -59,10 +59,10 @@ public class FavouriteActivity extends AppCompatActivity {
         recyclerViewFavouriteMovies.setAdapter(adapter);
 
         viewModel = ViewModelProviders.of(this).get(MainViewModel.class);
-        LiveData<List<FavouriteMovie>> favouriteMovies = viewModel.getFavouriteMovies();
-        favouriteMovies.observe(this, favouriteMovies1 -> {
-            if (favouriteMovies1 != null) {
-                List<Movie> movies = new ArrayList<>(favouriteMovies1);
+        LiveData<List<FavouriteMovie>> favouriteMoviesFromLiveData = viewModel.getFavouriteMovies();
+        favouriteMoviesFromLiveData.observe(this, favouriteMovies -> {
+            if (favouriteMovies != null) {
+                List<Movie> movies = new ArrayList<>(favouriteMovies);
                 adapter.setMovies(movies);
             }
         });
